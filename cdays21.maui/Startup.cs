@@ -3,7 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using Microsoft.Maui.Controls.Hosting;
-using cdays21.maui.Data;
+using cdays21.lib.Services;
+using cdays21.maui.Services;
 
 namespace cdays21.maui
 {
@@ -22,7 +23,7 @@ namespace cdays21.maui
 				.ConfigureServices(services =>
 				{
 					services.AddBlazorWebView();
-					services.AddSingleton<WeatherForecastService>();
+					services.AddScoped<IDataService, DataService>();
 				});
 		}
 	}
