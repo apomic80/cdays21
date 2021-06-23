@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "cdays21.maui.WinUI": {
+      "commandName": "AppContainer"
+    }
+  }
+}
