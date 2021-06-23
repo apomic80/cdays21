@@ -10,4 +10,7 @@
   <ItemGroup>
     <PackageReference Include="ElectronNET.API" Version="11.5.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lib2\cdays21.lib2.csproj" />
+  </ItemGroup>
 </Project>
