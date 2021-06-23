@@ -1,0 +1,1 @@
+# Community Days 2021 - Creare applicazioni ibride con Blazor e .NET 6
